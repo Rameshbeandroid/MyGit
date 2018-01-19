@@ -11,7 +11,6 @@ public class MainActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
     displayGitMaster();
   }
-
   private void displayGitMaster() {
     Toast.makeText(this,"Master",Toast.LENGTH_SHORT).show();
   }
